@@ -1,11 +1,11 @@
-﻿using Intellenum;
+using Soenneker.Gen.EnumValues;
 
 namespace Soenneker.Stripe.Enums.EventTypes;
 
 /// <summary>
-/// Stripe event types as strongly-typed <see cref="Intellenum"/> values.
+/// Stripe event types as strongly-typed <see cref="EnumValue"/> values.
 /// </summary>
-[Intellenum<string>]
+[EnumValue<string>]
 public sealed partial class StripeEventType
 {
     /// <summary>
