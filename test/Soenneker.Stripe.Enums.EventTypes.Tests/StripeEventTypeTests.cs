@@ -1,10 +1,9 @@
-﻿using Xunit;
 
 namespace Soenneker.Stripe.Enums.EventTypes.Tests;
 
 public sealed class StripeEventTypeTests
 {
-    [Fact]
+    [Test]
     public void Default()
     {
 
