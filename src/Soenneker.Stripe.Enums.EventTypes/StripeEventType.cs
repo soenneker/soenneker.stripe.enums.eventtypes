@@ -1257,4 +1257,30 @@ public sealed partial class StripeEventType
     /// ping
     /// </summary>
     public static readonly StripeEventType Ping = new("ping");
+
+    /// <summary>
+    /// balance_settings.updated
+    /// </summary>
+    public static readonly StripeEventType BalanceSettingsUpdated = new("balance_settings.updated");
+
+    /// <summary>
+    /// financial_connections.account.account_numbers_updated
+    /// </summary>
+    public static readonly StripeEventType FinancialConnectionsAccountAccountNumbersUpdated = new("financial_connections.account.account_numbers_updated");
+
+    /// <summary>
+    /// financial_connections.account.upcoming_account_number_expiry
+    /// </summary>
+    public static readonly StripeEventType FinancialConnectionsAccountUpcomingAccountNumberExpiry = new("financial_connections.account.upcoming_account_number_expiry");
+
+    /// <summary>
+    /// invoice.payment_attempt_required
+    /// </summary>
+    public static readonly StripeEventType InvoicePaymentAttemptRequired = new("invoice.payment_attempt_required");
+
+    /// <summary>
+    /// quote.will_expire
+    /// </summary>
+    public static readonly StripeEventType QuoteWillExpire = new("quote.will_expire");
+
 }
