@@ -3,7 +3,7 @@ using Soenneker.Gen.EnumValues;
 namespace Soenneker.Stripe.Enums.EventTypes;
 
 /// <summary>
-/// Stripe event types as strongly-typed <see cref="EnumValue"/> values.
+/// Represents a Stripe event name returned by webhooks and the Events API.
 /// </summary>
 [EnumValue<string>]
 public sealed partial class StripeEventType
